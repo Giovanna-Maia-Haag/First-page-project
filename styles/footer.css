@@ -1,0 +1,32 @@
+footer {
+    height: 8.0rem;
+    background-color: rgb(56,71,42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.entre_em_contato {
+    font-size: 1.6rem;
+    color: rgb(120, 138, 96);
+    font-family: var(--fonte-secundaria);
+    padding:2rem;
+}
+.instagram , .github {
+    padding: 2rem;
+    font-family: var(--fonte-secundaria);
+    color: rgb(120, 138, 96);
+    font-size: 1.8rem;
+
+}
+
+
+@media screen and (min-width:1024px){
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+    .instagram:hover , .github:hover {
+        background-color: rgb(38, 48, 29);
+    }
+}

@@ -1,0 +1,50 @@
+.sessao_principal_programadora  {
+    background-color: rgb(28, 31, 25);
+}
+.programadora_foto {
+    margin: 3rem 1rem 0 2rem;
+    border-radius: 15%;
+    width: 20.0rem;
+    height: auto;
+    box-shadow: 1rem 1rem  rgba(0, 0, 0, 0.24);
+}
+.titulo_programadora {
+    font-size: 2.7rem;
+    font-family: var(--fonte-principal);
+    color: rgb(129, 139, 107);
+    font-weight: 300;
+    padding: 2rem 2rem 0 2rem;
+}
+.linha_clara {
+    border-bottom: 0.2rem solid rgb(129, 139, 107);
+    box-sizing: inherit;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2rem;
+    margin: 0 2rem;
+    height: 0.1rem;
+}
+.texto_programadora {
+    color: rgb(129, 139, 107);
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+    padding: 2rem;
+}
+@media screen and (min-width:1024px) {
+    .sessao_principal_programadora {
+        padding: 8% 15%;
+       
+    }
+    .sessao_programadora_foto {
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .programadora_foto {
+        width: 30%;
+        
+        
+    }
+}

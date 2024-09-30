@@ -1,0 +1,114 @@
+.sumario{
+    height: 42.0rem;
+    background-image: url('..//images/images.galeria/Monet.obra.Camille-or-The-Woman-with-a-Green-Dress-1866.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.projeto_titulo {
+    margin: auto;
+    width: fit-content;
+    height: 20.0rem;
+    color: var(--branco);
+    font-size: 3.4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+
+}
+.titulo_sumario { 
+    font-size: 1.8rem;
+    color: #0e110c;
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+.linha_branca {
+    border-bottom: 0.2rem solid var(--branco);
+    box-sizing: inherit;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2rem;
+    margin: 0 1rem;
+    height: 0.1rem;
+}
+.lista_item {
+   width: 20.0rem; 
+   font-size: 1.5rem;
+   margin: auto;
+   color: #1f2717;
+    
+}
+.card_sumario {
+    width: 25.0rem;
+    height: 18.0rem;
+    background-color: rgba(255, 255, 255, 0.452);
+    margin: auto;
+    border-radius: 15%;
+}
+.sumario_item {
+    text-align: left;
+    display: block;
+    color: #1f2717;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: var(--fonte-principal);
+}
+.titulo_projeto {
+    padding: 1rem;
+    font-size: 2.0rem;
+    font-family: var(--fonte-secundaria);
+    color: #ffffff;
+    text-align: left;
+}
+.texto_projeto {
+    font-weight: 200;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-family: var(--fonte-principal);
+    padding: 1rem;
+    text-align:left;
+}
+main {
+    height: fit-content;
+    width: auto;
+    background-color: rgb(56, 71, 42);
+}
+
+@media screen and (min-width:1024px) {
+    .sumario {
+        background-size: cover;
+        height:52.0rem;
+    }
+    .card_sumario {
+        width: 40%;
+        height: 17.0rem;
+        background-color: rgba(255, 255, 255, 0.452);
+        margin: auto;
+        border-radius: 2rem;
+    }
+    .titulo_sumario { 
+        font-size: 2.5rem;
+    }
+    main {
+        padding: 5% 12%;
+    }
+    .texto_projeto {
+        font-size: 2.4rem;
+        padding: 2rem 1rem;
+    }
+    .sumario_item {
+        font-weight: 600;
+        font-size: 2.4rem;
+        font-family: var(--fonte-principal);
+    }
+    .sumario_item:hover {
+        color: rgb(56, 71, 42);
+    }
+}
+

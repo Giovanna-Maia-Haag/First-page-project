@@ -1,0 +1,193 @@
+
+.foto__monet {
+    padding: 3rem 1rem;
+}
+.titulo_historia {
+    padding: 1rem;
+    font-size: 2.0rem;
+    font-family: var(--fonte-secundaria);
+    color: #1f2717;
+    text-align: left;
+}
+.historia_monet {
+    background-color: rgb(120, 138, 96);
+}
+.texto_historia {
+
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #1f2717;
+    font-family: var(--fonte-principal);
+    padding: 1rem;
+    text-align:left;
+}
+.linha_escura {
+    border-bottom: 0.2rem solid rgb(56, 71, 42);
+    box-sizing: inherit;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2rem;
+    margin: 0 1rem;
+    height: 0.1rem;
+}
+.card_texto {
+    align-items: center;
+    justify-content: center;
+    font-size:2rem;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    margin: auto;
+    padding-right: 1rem;
+
+}
+.card_fotografia {
+    padding-top: 2rem;
+    height: 30.0rem;
+    width: auto;
+    display: flex;
+    background-image: url('..//images/images.galeria/Montet.obra.Turkeys-1876.jpg');
+    background-size: cover;
+}
+.curiosidades {
+    background-color: rgb(120, 138, 96);
+
+}
+.curiosidades_titulo {
+     font-size: 2.0rem;
+     font-weight: 600;
+     font-family: var(--fonte-secundaria);
+     color: var(--branco);
+     background-image: url('..//images/images.galeria/Monet.obra.Jeanne-Marguerite-Lecadre-in-the-Garden-1866.jpg');
+     background-size: cover ;
+     padding: 1rem;
+     height: 20.0rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imagem_obra-mais-famosa {
+    width: 65%;
+    padding: 1rem;
+}
+.a_texto_historia {
+    border-bottom: #b1b941 1px solid;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #b1b941;
+    font-family: var(--fonte-principal);
+    margin: 1rem 0 0 1rem;
+}
+.texto_destacado {
+    color: rgb(171, 187, 126);
+    font-family: var(--fonte-principal);
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: inline;
+}
+strong {
+    font-family: var(--fonte-principal);
+    font-size: 1.6rem;
+    color: var(--branco);
+}
+.secao_2obras {
+    display: block;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 2rem;
+
+}
+.obras2 {
+    background-color: var(--branco);
+    display: block;
+    border-radius: 2rem;
+    margin:2rem;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.28);
+
+}
+.primeira_ultima_obra {
+    width: 100%;
+    height: 22.0rem;
+
+
+}
+.descricao_obra {
+    font-family: var(--fonte-principal);
+    font-size: 1.8rem;
+    color: rgb(56, 71, 42);
+    font-weight: 600;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.secao_3obras_1024px {
+    display: none;
+}
+.obras3_1024px {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .card_fotografia {
+        padding: 0 20%;
+    }
+    .card_texto {
+        color: #1f2717;
+        font-weight: 700;
+    }
+    .titulo_historia {
+        padding: 2% 12%;
+        font-size: 2.0rem;
+        font-family: var(--fonte-secundaria);
+        color: #1f2717;
+        text-align: left;
+    }
+    .texto_historia {
+        font-weight: 600;
+        font-size: 2rem;
+        padding: 2% 12%;
+    }
+    .linha_escura {
+        margin: 0 12%;
+    }
+    .curiosidades {
+        height: fit-content;
+    }
+    .curiosidades_titulo {
+        font-size: 2.5rem;
+        background-position: center;
+   }
+   .secao_3obras_1024px {
+        display: flex;
+        width: 100vw;
+        height: 40.0rem;
+        justify-content: center;
+   }
+   .obras3_1024px {
+       display: block;
+       background-color: #ffffff;
+       width: 30.0rem;
+       margin: 2rem 2rem 5rem 2rem;
+       border-radius: 0 0 7% 7%;
+       box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.28);
+   }
+   .imagem_1024px {
+       width: 30.0rem;
+       height: 20.0rem;
+   }
+   .texto_1024px {
+       font-size: 2rem;
+       display: block;
+       font-family: var(--fonte-principal);
+       font-weight: 600;
+       padding: 1rem;
+       color: #1f2717;
+   }
+   .secao_2obras {
+    display: none;
+   }
+   .lirios-dagua-mobile{
+    display: none;
+   }
+
+}

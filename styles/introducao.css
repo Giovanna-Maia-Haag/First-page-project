@@ -1,0 +1,105 @@
+.titulo_projeto {
+  padding: 1rem;
+  font-size: 2.0rem;
+  font-family: var(--fonte-secundaria);
+  color: #1f2717;
+  text-align: left;
+}
+.texto_projeto {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #1f2717;
+  font-family: var(--fonte-principal);
+  padding: 1rem;
+  text-align:left;
+}
+ .introducao {
+   height: 69.0rem;
+   width: 39.0rem;
+   
+ }
+ .introducao_monet { 
+    display:block;
+    margin: auto;
+    width: 34.0rem;
+    height: 66.0rem;
+    background-color:  rgb(56 ,71 ,42);
+    border-radius: 3rem;
+    padding-bottom: 1rem;
+   
+ }
+.introducao_monet_titulo {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria), cursive;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    height: 2rem;
+    padding: 1rem 2rem 3rem 2rem ;
+    margin-bottom: 3rem;
+}
+ .introducao_monet_autoretrato {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    
+ }
+
+ .introducao_monet_texto {
+    
+    color: var(--branco);
+    font-family: var(--fonte-principal), cursive;
+    font-size: 2.0rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+ }
+ .introducao_1024 {
+  display: none;
+ }
+
+ @media screen and (min-width:1024px) {
+    .introducao_monet {
+      display: flex;
+      width: 100vw;
+      height: 60vh;
+      border-radius: 0%;
+      margin-top: 5%;
+      align-items: center;
+      justify-content: center;
+    }
+    .introducao_1024 {
+      display: block;
+      height: 60vh;
+      width: 30.0rem;
+
+    }
+    .introducao_monet_titulo_1024 {
+      font-size: 2.0rem;
+      padding: 2rem 0 2rem 0;
+      color: var(--branco);
+      font-family: var(--fonte-secundaria);
+    }
+    .introducao_monet_autoretrato_1024 {
+      width: 90%;
+      height: auto;
+    }
+    .introducao_monet_texto {
+      width: 21.0rem;
+      padding: 0 2rem;
+      border-left: 0.2rem var(--branco) solid;
+      color: var(--branco);
+      font-family: var(--fonte-principal), cursive;
+      font-size: 2.0rem;
+      font-weight: 400;
+   }
+    .introducao_monet_titulo {
+      display: none;
+  }
+    .introducao_monet_autoretrato {
+      display: none;
+    }
+ }

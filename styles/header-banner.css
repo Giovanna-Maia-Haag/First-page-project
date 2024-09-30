@@ -1,0 +1,142 @@
+/* H E A D E R */
+
+.header {
+    height: 5.0rem;
+    z-index: 4;
+    position: relative;
+    width: 100%;
+}
+
+
+ .header__cabecalho {
+    color: var(--branco);
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0.5rem 0.5rem;
+    font-family: var(--fonte-secundaria), serif;
+    justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu {
+    position: absolute;
+    top: 0%;
+    transform: translateY(-100%);
+    transition: transform 100ms linear;
+}
+.menu_open {
+    transform: translateY(0%)
+}
+
+.btnMenu {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 1.5rem center;
+    text-indent: -9999.9rem;
+    padding: 2.0rem 1.5rem;
+}
+.btnMenu_open {
+    background-color: rgb(56, 71, 42);
+    background-image: url(..//images/menu.hamburger.png);
+   
+}
+.btnMenu_close {
+    background-color: rgb(56, 71, 42);
+    background-image: url(..//images/menu.hamburger.png);
+    height: 2.5rem;
+    
+}
+.menu__item {
+    padding: 2.0rem 1.5rem;
+    border-bottom: 0.1rem solid rgb(98, 117, 81);
+    background-color: rgb(56, 71, 42);
+}
+.menu__item__action {
+    color: var(--branco);
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.4rem;
+}
+
+ /* B A N N E R */
+
+.banner { 
+    position: relative;
+}
+.banner_titulo {
+    font-size: 2.8rem;
+    font-family: var(--fonte-secundaria), cursive;
+    color:var(--branco);
+    font-weight: 500;
+    padding-top: 40%;
+
+}
+.banner_subtitulo {
+    font-size: 2.7rem;
+    font-family: var(--fonte-principal), cursive;
+    color:var(--branco);
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+}
+.banner_titulo , .banner_subtitulo {
+    position: relative;
+    z-index: 3;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.banner_imagem {
+    
+    height: 45.0rem;
+    background-image: url(..//images/Monet.obra.Water-Lily-Pond-1899.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 1;
+    margin-bottom: 2rem;
+    
+}
+@media screen and (min-width:1024px) {
+    .header__cabecalho {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin: 0 10rem;
+    }
+
+    .menu__item {
+       padding: 0 2rem;
+       margin: auto;
+       border: none;
+    }
+    .menu__item:hover {
+        background-color: rgb(38, 48, 29);
+    }
+    .btnMenu_open {
+        background-image: none;
+    }
+    .btnMenu_close {
+        background-image: none;
+    }
+    .banner_imagem {
+        background-size: cover;
+        background-position: center;
+        background-size: 100%;
+        height: max-content;
+        width: 100%;
+        height: 70vh;
+    }
+    .banner_titulo {
+        padding-top: 10%;
+        font-size: 4.8rem;
+    }
+    .banner_subtitulo {
+        font-size: 4.7rem;
+    }
+}
