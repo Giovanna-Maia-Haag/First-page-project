@@ -22,7 +22,7 @@
     text-align:left;
 }
 .linha_escura {
-    border-bottom: 0.2rem solid rgb(56, 71, 42);
+    border-bottom: 0.2rem solid var(--cor-menu-e-footer);
     box-sizing: inherit;
     align-items: center;
     align-content: center;
@@ -71,10 +71,10 @@
     padding: 1rem;
 }
 .a_texto_historia {
-    border-bottom: #b1b941 1px solid;
+    border-bottom: #006bcf 1px solid;
     font-weight: 600;
     font-size: 1.8rem;
-    color: #b1b941;
+    color: #006bcf;
     font-family: var(--fonte-principal);
     margin: 1rem 0 0 1rem;
 }
@@ -114,7 +114,7 @@ strong {
 .descricao_obra {
     font-family: var(--fonte-principal);
     font-size: 1.8rem;
-    color: rgb(56, 71, 42);
+    color: var(--cor-menu-e-footer);
     font-weight: 600;
     padding: 3rem 0;
     text-align: center;
