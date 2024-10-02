@@ -14,6 +14,7 @@
    --fonte-secundaria:"Playfair Display";
    --branco:#fff;
    --fonte-principal:"Allura";
+   --cor-menu-e-footer:rgb(56,71,42);
 }
 * {margin: 0;
    padding: 0;
