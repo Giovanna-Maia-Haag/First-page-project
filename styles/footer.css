@@ -1,6 +1,6 @@
-footer {
+ooter {
     height: 8.0rem;
-    background-color: rgb(56,71,42);
+    background-color: var(--cor-menu-e-footer);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,6 @@ footer {
         align-items: center;
     }
     .instagram:hover , .github:hover {
-        background-color: rgb(38, 48, 29);
+        background-color: var(--cor-menu-e-footer);
     }
 }
