@@ -23,7 +23,7 @@
     margin: auto;
     width: 34.0rem;
     height: 66.0rem;
-    background-color:  rgb(56 ,71 ,42);
+    background-color:  var(--cor-menu-e-footer);
     border-radius: 3rem;
     padding-bottom: 1rem;
    
