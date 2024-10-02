@@ -5,11 +5,6 @@
     justify-content: center;
     text-align: center;
 }
-.galeria:active, .lista:active{
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 .galeria_titulo {
     font-family: var(--fonte-secundaria);
@@ -38,26 +33,10 @@ div.galeria_imagem , li.galeria_imagem {
     width: 17.0rem;
 
 }
-.galeria_imagem:active {
-    position: absolute;
-    width: 100vw;
-    height: auto;
-    padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.582);
-    margin: auto;
-    
-}
 .galeria_imagem-png{
     width: 17.0rem;
     height: 17.0rem;
     text-decoration: none;
-}
-
-.galeria_imagem-png:active {
-    position: relative;
-    width: auto;
-    height: 100vh;
-    float: center;
 }
 .ano  {
    text-align: center;
