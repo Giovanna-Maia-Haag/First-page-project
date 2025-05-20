@@ -1,0 +1,30 @@
+@import url("..//styles/header-banner.css");
+@import url("..//styles/introducao.css");
+@import url("..//styles/galeria.css");
+@import url("..//styles/historia.css");
+@import url("..//styles/projeto.css");
+@import url("..//styles/footer.css");
+@import url("..//styles/programadora.css");
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+:root {
+   --fonte-secundaria:"Playfair Display";
+   --branco:#fff;
+   --fonte-principal:"Allura";
+   --cor-menu-e-footer:rgb(56,71,42);
+}
+* {margin: 0;
+   padding: 0;
+   font-size:62.5%; /* 10 px = 1 rem */
+}
+
+body {
+   background-color: rgb(100, 117, 78);
+   box-sizing: border-box;
+}
+::marker {
+   font-size: 0;
+}
